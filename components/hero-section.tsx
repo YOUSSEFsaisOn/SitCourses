@@ -66,7 +66,7 @@ export function HeroSection() {
                 alt="Students learning online"
                 className="w-full h-auto"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to  from-black/60 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="flex items-center gap-4">
                   <button className="w-14 h-14 bg-primary rounded-full flex items-center justify-center hover:bg-primary/90 transition-colors">
@@ -81,7 +81,8 @@ export function HeroSection() {
             </div>
 
             {/* Floating Card */}
-            <div className="absolute -bottom-6 -left-6 bg-card rounded-xl shadow-lg p-4 border border-border">
+            
+            {/* <div className="absolute -bottom-6 -left-6 bg-card rounded-xl shadow-lg p-4 border border-border">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                   <span className="text-2xl">🎓</span>
@@ -93,7 +94,7 @@ export function HeroSection() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
