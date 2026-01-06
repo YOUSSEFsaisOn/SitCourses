@@ -1,6 +1,6 @@
-import { Search, Play } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { Search, Play } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 export function HeroSection() {
   return (
@@ -16,10 +16,12 @@ export function HeroSection() {
               New courses added weekly
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
-              Learn skills that <span className="text-primary">advance your career</span>
+              Learn skills that{" "}
+              <span className="text-primary">advance your career</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              Access over 10,000 courses taught by expert instructors. Start learning today and unlock your potential.
+              Access over 10,000 courses taught by expert instructors. Start
+              learning today and unlock your potential.
             </p>
 
             {/* Search Bar */}
@@ -45,7 +47,9 @@ export function HeroSection() {
               </div>
               <div>
                 <p className="text-2xl font-bold text-foreground">500+</p>
-                <p className="text-sm text-muted-foreground">Expert Instructors</p>
+                <p className="text-sm text-muted-foreground">
+                  Expert Instructors
+                </p>
               </div>
               <div>
                 <p className="text-2xl font-bold text-foreground">2M+</p>
@@ -57,7 +61,11 @@ export function HeroSection() {
           {/* Hero Image / Video Preview */}
           <div className="relative hidden lg:block">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img src="/students-learning-online-with-laptops-modern-class.jpg" alt="Students learning online" className="w-full h-auto" />
+              <img
+                src="maac-india-Yk3FgdgwjlE-unsplash.jpg"
+                alt="Students learning online"
+                className="w-full h-auto"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="flex items-center gap-4">
@@ -80,7 +88,9 @@ export function HeroSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Get Certified</p>
-                  <p className="text-sm text-muted-foreground">Earn certificates</p>
+                  <p className="text-sm text-muted-foreground">
+                    Earn certificates
+                  </p>
                 </div>
               </div>
             </div>
@@ -88,5 +98,5 @@ export function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
